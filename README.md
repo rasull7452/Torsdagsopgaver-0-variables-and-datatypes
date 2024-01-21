@@ -47,7 +47,7 @@ I denne opgave skal du erklære variable. En erklæring er en linje i koden hvor
 I denne opgave skal du arbejde med at tilføje værdier til variable som er erklæret et andet sted i koden
  - 3.a tag fat i sketchen fra Task 3 og tilføj en setup metode.
  - 3.b I setup metoden, tildel værdier til de variable du har erklæret i det globale scope.
- - 3.c Med printLn kommandoen, udskriv alle variablene, med et label foran. Fx. sådan her for variablen address: println("Adresse: "+address);
+ - 3.c Med printLn kommandoen, udskriv alle variablene, med et label foran. Fx. sådan her for variablen address: <code>println("Adresse: "+address);</code>
  - 3.d Tildel helt nye værdier til variablene, og udskriv dem igen. Genbrug evt dine println kommandoer.
  - 3.e Tildel nye værdier til variablene, men som tilføjelser - dvs. uden at overskrive det der allerede er gemt i variablene. Udskriv dem igen. Genbrug evt dine println kommandoer.
  - 3.f Tæl alle de numeriske variable op med 1. Udskriv.

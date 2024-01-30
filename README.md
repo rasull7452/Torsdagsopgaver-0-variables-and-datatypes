@@ -45,20 +45,39 @@ I denne opgave skal du erklære variable. En erklæring er en linje i koden hvor
 
 ## Task 4: Tildeling
 I denne opgave skal du arbejde med at tilføje værdier til variable som er erklæret et andet sted i koden
- - 3.a tag fat i sketchen fra Task 3 og tilføj en setup metode.
- - 3.b I setup metoden, tildel værdier til de variable du har erklæret i det globale scope.
- - 3.c Med printLn kommandoen, udskriv alle variablene, med et label foran. Fx. sådan her for variablen address: <code>println("Adresse: "+address);</code>
- - 3.d Tildel helt nye værdier til variablene, og udskriv dem igen. Genbrug evt dine println kommandoer.
- - 3.e Tildel nye værdier til variablene, men som tilføjelser - dvs. uden at overskrive det der allerede er gemt i variablene. Udskriv dem igen. Genbrug evt dine println kommandoer.
- - 3.f Tæl alle de numeriske variable op med 1. Udskriv.
- - 3.g Tæl alle de numeriske variable op med 3. Udskriv.
- - 3.h Tæl alle de numeriske variable ned med 1. Udskriv.
+ - 4.a tag fat i sketchen fra Task 3 og tilføj en setup metode.
+ - 4.b I setup metoden, tildel værdier til de variable du har erklæret i det globale scope.
+ - 4.c Med printLn kommandoen, udskriv alle variablene, med et label foran. Fx. sådan her for variablen address: <code>println("Adresse: "+address);</code>
+ - 4.d Tildel helt nye værdier til variablene, og udskriv dem igen. Genbrug evt dine println kommandoer.
+ - 4.e Tildel nye værdier til variablene, men som tilføjelser - dvs. uden at overskrive det der allerede er gemt i variablene. Udskriv dem igen. Genbrug evt dine println kommandoer.
+ - 4.f Tæl alle de numeriske variable op med 1. Udskriv.
+ - 4.g Tæl alle de numeriske variable op med 3. Udskriv.
+ - 4.h Tæl alle de numeriske variable ned med 1. Udskriv.
 
 ## Task 5: Scope
+In this assignment you will work on the sketch in the folder TaskFive.
+- 5.a declare variable circleSize used in the setup method.
+int circleSize;
+- 5.b declare numberOfCircles variable used in both setup and draw method
+- 5.c declare x and y variables used in the draw method
+- 5.d initialize the two counter variables used in draw method, with the value 0.
 
-
-
-
+## Task 6: Conditional assignement
+We will continue working on the sketch in TaskFive. We will change the code to draw each row of circles in a different random color.
+- 6.a  declare three int variables in the global scope, one for each of the color channels red, green and blue.
+- 6.b in the setup method assign values to the three variables that combined represents the color white.
+- 6.c in the draw method use conditional assignment to change the color variables but only if we are about to draw the first circle in a line.
+<details>
+  <summary>hhelp</summary>
+  <p>  
+    Generate new random color if <code>counter == 0</code>, otherwise let it remain the same value.
+  
+<details>
+  <summary>mere hjælp</summary>
+  <p>
+    <code>
+    red = counter==0 ? (int)random(255):red;  
+</code>
 
 
 

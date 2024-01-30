@@ -68,16 +68,17 @@ We will continue working on the sketch in TaskFive. We will change the code to d
 - 6.b in the setup method assign values to the three variables that combined represents the color white.
 - 6.c in the draw method use conditional assignment to change the color variables but only if we are about to draw the first circle in a line.
 <details>
-  <summary>hhelp</summary>
+  <summary>Hjælp</summary>
   <p>  
     Generate new random color if <code>counter == 0</code>, otherwise let it remain the same value.
   
 <details>
-  <summary>mere hjælp</summary>
+  <summary>Mere hjælp</summary>
   <p>
     <code>
     red = counter==0 ? (int)random(255):red;  
 </code>
+</details>
 
-
+</details>
 

@@ -21,7 +21,10 @@ void draw(){
    
    ellipse(x,y,circleSize,circleSize);
   
-  
+  // Explaining conditional assignments. 
+  // First part before the ?-mark, is a conditional. 
+  // If this is true, the value after the ?-mark will be assigned. 
+  // If not, the last value will.
   counter =  frameCount % numberOfCircles == 0 ? 0 : counter+1;
   rowCounter =  counter==0 ? rowCounter+1:rowCounter;
   

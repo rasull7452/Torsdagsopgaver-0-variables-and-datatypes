@@ -36,7 +36,7 @@ I denne opgave skal du lave initialiseringer. En initialisering er en linje som 
 - åbn koden som ligger i mappen TaskTwo. For hver linje du ser i koden, skal du ændre linjen så det bliver til en initialisering. Du skal selv finde på et passende navn datatype.
 
 ## Task 3: Erklæring
-I denne opgave skal du erklære variable. En erklæring er en linje i koden hvor vi fortæller at der findes en variabel, men hvor vi ikke giver den nogen værdi.
+I denne opgave skal du erklære variable. En erklæring er en linje i koden hvor vi fortæller at der findes en variabel og giver den type og navn, men hvor vi ikke giver den nogen værdi.
  - 3.a start en ny Processing sketch og kald den Task3
  - 3.b I det globale scope, erklær en variabel af typen <code>String</code> med navnet <code>address</code>.
  - 3.c tilføj erklæring af en varibel som gemmer summen af to heltal. Find selv på passende navn og datatype
@@ -55,23 +55,22 @@ I denne opgave skal du arbejde med at tilføje værdier til variable som er erkl
  - 4.h Tæl alle de numeriske variable ned med 1. Udskriv.
 
 ## Task 5: Scope
-In this assignment you will work on the sketch in the folder TaskFive.
-- 5.a declare variable circleSize used in the setup method.
-int circleSize;
-- 5.b declare numberOfCircles variable used in both setup and draw method
-- 5.c declare x and y variables used in the draw method
-- 5.d initialize the two counter variables used in draw method, with the value 0.
+I denne opgave skal du arbejde på sketchen, som ligger i mappen TaskFive
+
+- 5.a erklær variablen <code>circleSize</code> som bruges i setup-metoden
+- 5.b erklær variablen <code>numberOfCircles</code> som bruges i både setup- og draw-metoden.
+- 5.c erklær variablene <code>x</code> og <code>y</code>, som bruges i draw-metoden.
+- 5.d initialiser de to <code>counter</code>-variable, som bruges i draw-metoden, så de har værdien 0.
 
 ## Task 6: Conditional assignement
-We will continue working on the sketch in TaskFive. We will change the code to draw each row of circles in a different random color.
-- 6.a  declare three int variables in the global scope, one for each of the color channels red, green and blue.
-- 6.b in the setup method assign values to the three variables that combined represents the color white.
-- 6.c in the draw method use conditional assignment to change the color variables but only if we are about to draw the first circle in a line.
+Vi fortsætter med at arbejde på sketchen fra mappen TaskFive. Vi skal ændre koden, så hver række af cirkler tegnes i en forskellig, tilfældig farve. 
+- 6.a erklær tre variable af typen <code>int</code> i det globale scope; én for hver af de tre farver rød, grøn og blå.
+- 6.b i setup-metoden skal du tildele værdier til de tre variable, så de tilsammen repræsenterer farven hvid.
+- 6.c i draw-metoden skal du bruge en conditional assignment (betinget tildeling) til at ændre farve-variablene, men kun hvis vi er i gang med at tegne den første cirkel i en række. 
 <details>
   <summary>Hjælp</summary>
   <p>  
-    Generate new random color if <code>counter == 0</code>, otherwise let it remain the same value.
-  
+    Generer ny tilfældig farve hvis <code>counter == 0</code>, ellers lad den beholde sin værdi.   
 <details>
   <summary>Mere hjælp</summary>
   <p>
